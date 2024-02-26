@@ -1,0 +1,19 @@
+{
+  "name": "cs361microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel sender receiver",
+    "receiver": "node receiver.js",
+    "sender": "node sender.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "ws": "^8.16.0"
+  }
+}
