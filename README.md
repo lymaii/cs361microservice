@@ -13,7 +13,7 @@ npm install
 npm start
 
 ## Step 5/6: Example call and recieve
-'''
+```
 const WebSocket = require('ws')
 const port = 8080
 
@@ -35,7 +35,7 @@ wss.on('connection', function connection(ws) {
   })
   
 })
-'''
+```
 
 ## Step 6 
 All done! 
