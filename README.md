@@ -1,9 +1,6 @@
-# cs361microservice
-Implemented dice rolling microservice
-
 # Microservice Usage Guide
 
-## Pre-requisites
+## Step 1: Ensure you have Pre-requisites
 Make sure that Node.js and npm are installed on your system.
 
 ## Step 2: Clone Repository
@@ -16,6 +13,7 @@ npm install
 npm start
 
 ## Step 5/6: Example call and recieve
+'''
 const WebSocket = require('ws')
 const port = 8080
 
@@ -37,6 +35,7 @@ wss.on('connection', function connection(ws) {
   })
   
 })
+'''
 
 ## Step 6 
 All done! 
